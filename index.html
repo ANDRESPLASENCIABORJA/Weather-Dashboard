@@ -7,28 +7,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <!--Here is how we link a bootstrap stylesheet-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <header>
-        <h1 class="text-centered">Weather Dashboard</h1>
+    <!-- First the header section -->
+    <header class="header">
+        <h1 class="text-center first-header">Weather Dashboard</h1>
     </header>
 
+    <!-- Now the main section is going to be divided in 2 sections one on the left and one on the right side of the screen -->
     <main>
-        <aside class="text-align-left" id="search-bar">
 
+        <aside class="container main-page-sections">
+
+            <section class="row main-section">
+                <!-- First left div for the webpage -->
+                <div class="col-4 first-left-div">
+                    <form>
+                        <div class="mb-3">
+                            <h2>Search for a City</h1>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </form>
+                </div>
+
+                <div class="col-6">.col-6<br>Subsequent columns continue along the new line.</div>
+
+                <!-- Second left div for the webpage -->
+                <div class="col-4  d-grid gap-2 second-left-div">
+                    <!-- <div class="btn-group-vertical"> -->
+                        <button class="btn btn-primary mb-3" type="button">Button</button>
+                        <button class="btn btn-primary" type="button">Button</button>
+                </div>
+                <div class="col-6">.col-6<br>Subsequent columns continue along the new line.</div>
+            </section>
         </aside>
-        <aside class="buttom-left" id="cities">
+        <!-- First the left side section -->
+        <!-- <aside class="container left-section">
+            <section class="first-left-section">
+                <div class="row">
+                    <form>
+                        <div class="mb-3">
+                            <h2>Search for a City</h1>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                        </div>
 
-        </aside>
-        <section class="top" id="current-weather">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </form>
+                </div>
+            </section> -->
+        <!-- Second section of the left side section -->
+        <!-- <section class="second-left-section">
+                <div class="row">
+                    <form>
+                        <div class="mb-3">
+                            <h2>Search for a City</h1>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                        </div>
 
-        </section>
-        <section class="buttom" id="forecasr-weather">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </form>
+                </div>
+            </section>
+        </aside> -->
 
-        </section>
     </main>
     <script src="./assets/script.js"></script>
 </body>

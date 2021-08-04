@@ -1,0 +1,28 @@
+/* Style for the header */
+.header {
+    background-color: #0000A3;
+    color: aliceblue;
+    padding-bottom: 2.5%;
+}
+
+.first-header {
+    padding-top: 2.5%;
+}
+
+main {
+    margin-top: 2.5%;
+}
+
+/* Styles for the left aside sections */
+.first-left-div {
+    padding-bottom: 5%;
+    border-bottom: solid #0000A3;
+}
+
+.second-left-div {
+    padding-top: 5%;
+}
+
+.btn {
+    border-radius: 10px;
+}
